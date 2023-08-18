@@ -27,7 +27,7 @@ export function Header(){
     return (
     <main>
         <div className="header">
-            <a href="/"><div className='logo'><span>Fruteria Emiliano</span></div></a>
+            <div className='logo'><span>Fruteria Emiliano</span></div>
             <div className='categories'>
                 <a href="#" onClick={()=> { setModalOpenProducto(true); }}>Producto</a>
                 <a href="#" onClick={()=> { setModalOpenCliente(true); }}>Cliente</a>

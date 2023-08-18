@@ -7,13 +7,13 @@ import { Singin } from './pages/SinginPage';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
-        <Route path='/' element={<Layout/>}>
+        <Route path='' element={<Layout/>}>
           <Route index element={<Home/>} />
-          <Route path='login' element={<Login/>}/>
-          <Route path='signin' element={<Singin/>}/>
-          <Route path='*' element={<h1>Path not resolved</h1>}/>
+          <Route path='/login' element={<Login/>}/>
+          <Route path='/signin' element={<Singin/>}/>
+          <Route path='/*' element={<h1>Path not resolved</h1>}/>
         </Route>
       </Routes>
     </BrowserRouter>

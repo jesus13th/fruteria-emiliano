@@ -1,8 +1,8 @@
 {
-  "homepage": "",
+  "homepage": "https://jesus13th.github.io/",
   "name": "fruteria-emiliano",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@amir04lm26/react-modern-calendar-date-picker": "^1.0.1",
     "@testing-library/jest-dom": "^5.17.0",
@@ -24,7 +24,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
+    "predeploy": "npm run build && echo 'spookydevstudio.site' > ./build/CNAME",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
