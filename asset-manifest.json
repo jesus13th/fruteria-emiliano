@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/fruteria-emiliano/static/css/main.fd499de4.css",
-    "main.js": "/fruteria-emiliano/static/js/main.0bfd1f79.js",
+    "main.js": "/fruteria-emiliano/static/js/main.10581a0b.js",
     "static/js/787.5ce56bf5.chunk.js": "/fruteria-emiliano/static/js/787.5ce56bf5.chunk.js",
     "index.html": "/fruteria-emiliano/index.html",
     "main.fd499de4.css.map": "/fruteria-emiliano/static/css/main.fd499de4.css.map",
-    "main.0bfd1f79.js.map": "/fruteria-emiliano/static/js/main.0bfd1f79.js.map",
+    "main.10581a0b.js.map": "/fruteria-emiliano/static/js/main.10581a0b.js.map",
     "787.5ce56bf5.chunk.js.map": "/fruteria-emiliano/static/js/787.5ce56bf5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fd499de4.css",
-    "static/js/main.0bfd1f79.js"
+    "static/js/main.10581a0b.js"
   ]
 }
