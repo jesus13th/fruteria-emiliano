@@ -13,6 +13,7 @@ function App() {
           <Route index element={<Home/>} />
           <Route path='login' element={<Login/>}/>
           <Route path='signin' element={<Singin/>}/>
+          <Route path='*' element={<h1>Path not resolved</h1>}/>
         </Route>
       </Routes>
     </BrowserRouter>
