@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/fruteria-emiliano/static/css/main.fd499de4.css",
-    "main.js": "/fruteria-emiliano/static/js/main.8454124e.js",
-    "static/js/787.5ce56bf5.chunk.js": "/fruteria-emiliano/static/js/787.5ce56bf5.chunk.js",
-    "index.html": "/fruteria-emiliano/index.html",
-    "main.fd499de4.css.map": "/fruteria-emiliano/static/css/main.fd499de4.css.map",
-    "main.8454124e.js.map": "/fruteria-emiliano/static/js/main.8454124e.js.map",
-    "787.5ce56bf5.chunk.js.map": "/fruteria-emiliano/static/js/787.5ce56bf5.chunk.js.map"
+    "main.css": "/static/css/main.fd499de4.css",
+    "main.js": "/static/js/main.cff9fcae.js",
+    "static/js/787.5ce56bf5.chunk.js": "/static/js/787.5ce56bf5.chunk.js",
+    "index.html": "/index.html",
+    "main.fd499de4.css.map": "/static/css/main.fd499de4.css.map",
+    "main.cff9fcae.js.map": "/static/js/main.cff9fcae.js.map",
+    "787.5ce56bf5.chunk.js.map": "/static/js/787.5ce56bf5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fd499de4.css",
-    "static/js/main.8454124e.js"
+    "static/js/main.cff9fcae.js"
   ]
 }
