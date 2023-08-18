@@ -1,0 +1,45 @@
+.signin {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.signin form {
+    width: 300px;
+    height: auto;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgb(216, 216, 216);
+    box-shadow: 5px 5px #888;
+    border-radius: 30px;
+}
+.signin form h1{
+    text-align: center;
+    color: black;
+}
+.signin form div {
+    display: flex;
+    flex-direction: column;
+}
+.signin form input, .signin form select {
+    margin: 10px 10px;
+    padding: 10px;
+}
+.signin form input[type='button']{
+    border: none;
+    background-color: black;
+    border-radius: 30px;
+    color: white;
+    padding: 15px;
+    font-size: large;
+    font-weight: 600;
+}
+.signin form input[type='button']:hover{
+    background-color: #444;
+}
+.signin form span {
+    color: black;
+    margin: 0px 10px;
+}

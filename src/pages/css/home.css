@@ -1,0 +1,122 @@
+.home h1 {
+    text-align: center;
+}
+.home .content {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    justify-content: space-between;
+}
+.home .products {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+}
+.home .product {
+    display: flex;
+    flex-direction: row;
+}
+.home .product > div {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.home .product .search {
+    width: 60%;
+}
+.home .product .search span {
+    font-size: large;
+}
+.home .product .search input {
+    padding: 10px;
+}
+.home .product .quantity {
+    width: 20%;
+}
+.home .product .quantity span {
+    font-size: large;
+}
+.home .product .quantity input {
+    padding: 10px;
+}
+.home .product .add {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+.home .product .add input {
+    margin: 2px;
+    background-color: black;
+    border: none;
+    color: white;
+    font-size: large;
+}
+.product-list {
+    padding: 10px;
+}
+.product-list table {
+    width: 100%;
+}
+.center {
+    text-align: center;
+}
+.product-list table, .product-list th, .product-list td {
+    border: 2px solid white;
+    border-collapse: collapse;
+}
+.product-list th{
+    background-color: #76a5a5;
+    padding: 5px;
+}
+.product-list td {
+    background-color: #96D4D4;
+    padding: 5px;
+}
+.product-delete{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+.product-delete input {
+    border: none;
+    background-color: black;
+    padding: 10px;
+    color: white;
+}
+.others {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+.others .tmp-sales {
+    display: grid;
+    width: 440px;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: #ccc;
+}
+.others .tmp-sales button {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    border:none;
+    border-radius: 5px;
+    background-color: #6981c8;
+}
+
+.other .client-data {
+    background-color: gray;
+}
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+.done-sale {
+    text-align: center;
+}
+.done-sale button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 30px 60px;
+    margin: 25px;
+}
